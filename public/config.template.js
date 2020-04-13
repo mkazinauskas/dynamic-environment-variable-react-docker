@@ -1,0 +1,3 @@
+env = {
+    REACT_APP_DYNAMIC_NAME: '{{REACT_APP_DYNAMIC_NAME}}'
+}

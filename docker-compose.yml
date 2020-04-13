@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    environment:
+      REACT_APP_DYNAMIC_NAME: 'From Docker Compose file'
+    ports:
+      - "3000:80"
